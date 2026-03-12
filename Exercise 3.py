@@ -1,5 +1,5 @@
 name_string = set()
-print("Enter names one by one. Press Enter (empty string) to quit.")
+print("Enter names one by one. Enter empty string to quit.")
 while True:
     name = input("Enter a name: ").strip()
     if name == "":
@@ -11,4 +11,5 @@ while True:
         name_string.add(name)
 print("List of all names entered:")
 for n in name_string:
+
     print(n)
